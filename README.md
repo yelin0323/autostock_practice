@@ -1,2 +1,0 @@
-# venv
- autostock_practice
