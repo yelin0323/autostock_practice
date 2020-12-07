@@ -1,3 +1,6 @@
+#cmd창에서 venv\Scripts 디렉터리로 이동
+#-> activate (가상환경 실행)
+
 import pandas as pd
 s = pd.Series([0.0,3.6,2.0,5.8,4.2,8.0,5.5,6.7,4.2])
 s.index = pd.Index([0.0,1.2,1.8,3.0,3.6,4.8,5.9,6.8,8.0])
@@ -14,3 +17,4 @@ plt.yticks(s.values) #y축의 눈금값을 s 시리즈의 데이터값으로 설
 
 plt.grid(True)
 plt.show()
+
