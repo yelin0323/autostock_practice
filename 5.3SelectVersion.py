@@ -1,7 +1,7 @@
 import pymysql
 
-connection = pymysql.connect(host='localhost', port=3306, db='INVESTAR', 
-    user='root', passwd='dpfls7708', autocommit=True)  
+connection = pymysql.connect(host='localhost', port=3306, db='INVESTAR',
+    user='root', passwd='dpfls', autocommit=True)  
 
 cursor = connection.cursor()    #cursor 객체를 생성
 cursor.execute("SELECT VERSION();")     # cursor 객체의 execute()함수를 사용해 select문을 실행
